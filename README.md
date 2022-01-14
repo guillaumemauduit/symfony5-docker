@@ -2,12 +2,11 @@
 
 ## Installation de l'environnement avec Docker
 
-Cloner le repository et executer `docker compose up -d --build`
+- Cloner le repository et executer `docker compose up -d --build`.
 
 ## Création d'un projet Symfony
 
-Accéder au conteneur php : `docker exec -it php74-container bash`
-Créer du projet : `composer create-project symfony/skeleton .`
-Tester l'installation : `localhost:8080`
-
+- Accéder au conteneur php : `docker exec -it php74-container bash`.
+- Créer le projet : `composer create-project symfony/skeleton .`.
+- Tester l'installation : `localhost:8080`.
 
